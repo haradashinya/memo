@@ -1,6 +1,6 @@
 module github.com/haradashinya/memo
 
-go 1.23
+go 1.22.2
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -13,8 +13,8 @@ require (
 	github.com/shurcooL/github_flavored_markdown v0.0.0-20210228213109-c3a9aa474629
 	github.com/urfave/cli/v2 v2.27.5
 )
-require github.com/haradashinya/memo latest
-replace github.com/mattn/memo => github.com/haradashinya/memo
+
+replace github.com/mattn/memo => github.com/haradashinya/memo v0.0.0-16af83f7b4455bd5e46ccb85125c07f76ee92ee6
 
 require (
 	github.com/aymerick/douceur v0.2.0 // indirect
