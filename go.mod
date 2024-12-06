@@ -13,6 +13,8 @@ require (
 	github.com/shurcooL/github_flavored_markdown v0.0.0-20210228213109-c3a9aa474629
 	github.com/urfave/cli/v2 v2.27.5
 )
+require github.com/haradashinya/memo latest
+replace github.com/mattn/memo => github.com/haradashinya/memo
 
 require (
 	github.com/aymerick/douceur v0.2.0 // indirect
