@@ -494,7 +494,7 @@ func cmdNew(c *cli.Context) error {
 			file = title + ".md"
 
 		} else {
-			file = now.Format("2006-01-02-") + escape(title) + ".md"
+			file = escape(title) + ".md"
 		}
 	}
 	file = filepath.Join(cfg.MemoDir, file)
