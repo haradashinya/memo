@@ -14,8 +14,6 @@ require (
 	github.com/urfave/cli/v2 v2.27.5
 )
 
-replace github.com/mattn/memo => github.com/haradashinya/memo v0.0.0-16af83f7b4455bd5e46ccb85125c07f76ee92ee6
-
 require (
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
